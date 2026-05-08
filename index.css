@@ -1,0 +1,101 @@
+
+
+.heading1 span{
+    color:blue;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.hero-section {
+    padding: 80px 0; 
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.nav-link {
+    color: #333 ;
+    font-weight: 500;
+    margin-left: 30px; 
+}
+
+
+
+
+.heading1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.sub-text {
+    font-size: 20px;
+    color: grey; 
+    max-width: 550px;
+    line-height: 1.6;
+    margin-bottom: 32px; 
+}
+
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+   
+}
+
+
+
+
+
+
+
+.container{
+    padding-top: 40px;
+}
+.button1{
+    width:100px;
+    height: 80px;
+    background-color: black;
+}
+
+
+.section-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 60px; 
+}
+
+.custom-card {
+    border: none ;
+    background-color: #f8f9fa; 
+    border-radius: 16px ;
+    overflow: hidden;
+    height: 100%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.domain :hover{
+    background-color: aqua;
+}
