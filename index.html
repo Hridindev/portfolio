@@ -3,52 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+    <title>Hridin Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <body style="height: 100vh;">
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <a class="navbar-brand" href="#">HRIDIN </a>
 
-    <div class="ms-auto"> 
-      <ul class="navbar-nav">
+<nav class="navbar navbar-expand-lg sticky-top bg-white">
+  <div class="container custom-nav-container">
+    <a class="navbar-brand logo-text" href="#">HRIDIN DEV</a>
+
+    <div class="ms-auto">
+      <ul class="navbar-nav flex-row">
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link custom-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link custom-link" href="#">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link custom-link" href="#">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
 <header class="hero-section">
     <div class="container">
         <h1 class="heading1">Building digital experiences with <span>precision.</span></h1>
-        
-        <p class="sub-text">
-            Full Stack Developer specializing in clean code and aesthetic user interfaces.
-        </p>
-        
-        <button class="btn-primary">
-            View My Projects
-        </button>
+        <p class="sub-text">Full Stack Developer specializing in clean code and aesthetic user interfaces.</p>
+        <button class="btn-primary">View My Projects</button>
     </div>
 </header>
 
 <section class="container my-5">
   <h2 class="section-title mb-4">Selected Works</h2>
-  
-  <div class="row g-4"> <div class="col-md-4">
+  <div class="row g-4"> 
+    
+    <div class="col-md-4">
       <div class="card h-100 custom-card">
-        <div class="card-img-placeholder"></div>
+        <img src="image1.jpg" class="card-img-top" alt="Project 1">
         <div class="card-body">
           <h5 class="card-title fw-bold">E-Commerce Platform</h5>
           <p class="card-text text-muted">A full-stack solution focusing on performance and minimalist UX.</p>
@@ -58,7 +53,7 @@
 
     <div class="col-md-4">
       <div class="card h-100 custom-card">
-        <div class="card-img-placeholder"></div>
+        <img src="image2.jpg" class="card-img-top" alt="Project 2">
         <div class="card-body">
           <h5 class="card-title fw-bold">Educational Portal</h5>
           <p class="card-text text-muted">A custom-built site for course management and student discovery.</p>
@@ -68,7 +63,7 @@
 
     <div class="col-md-4">
       <div class="card h-100 custom-card">
-        <div class="card-img-placeholder"></div>
+        <img src="image3.jpg" class="card-img-top" alt="Project 3">
         <div class="card-body">
           <h5 class="card-title fw-bold">Booking System</h5>
           <p class="card-text text-muted">A streamlined interface for holiday planning and scheduling.</p>
@@ -78,16 +73,87 @@
 
   </div>
 </section>
-<footer class="foot">
-  <section>
-<h2>Let's connect</h2>
-  <p class="paragraph1">Currently open to new projects and technical collaborations.
-</p>
-<h1 class="domain" >
-  hello@yourdomain.com
-</h1>
-  </section>
-  
+<section class="container my-5">
+  <h2 class="section-title mb-4">Skills</h2>
+  <div class="row g-4"> 
+    
+    <div class="col-md-4">
+      <div class="card h-100 custom-card">
+        <img src="image4.jpg" class="card-img-top" alt="C Language">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">C Language</h5>
+          <p class="card-text text-muted">Foundational programming, logic building, and memory management.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 custom-card">
+        <img src="image5.jpg" class="card-img-top" alt="Python">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Python</h5>
+          <p class="card-text text-muted">Backend development, automation scripts, and clean coding logic.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 custom-card">
+        <img src="image7.jpg" class="card-img-top" alt="HTML CSS">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">HTML & CSS</h5>
+          <p class="card-text text-muted">Creating responsive layouts and modern, aesthetic user interfaces.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 custom-card">
+        <img src="image8.jpg" class="card-img-top" alt="Bootstrap">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Bootstrap</h5>
+          <p class="card-text text-muted">Rapid UI development using grid systems and mobile-first components.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 custom-card">
+        <img src="image9.jpg" class="card-img-top" alt="Git">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Git & GitHub</h5>
+          <p class="card-text text-muted">Version control for tracking code changes and collaborating on repositories.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 custom-card">
+        <img src="image9.jpg" class="card-img-top" alt="Other Skill">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">SQL / Databases</h5>
+          <p class="card-text text-muted">Designing and managing database structures for data-driven applications.</p>
+        </div>
+      </div>
+    </div>
+
+  </div> </section>
+<footer class="footer-section">
+    <div class="container text-center">
+        <h2 class="connect-title">Let's connect</h2>
+        <p class="connect-subtext">
+            Currently open to new projects and technical collaborations.
+        </p>
+        
+        <h1 class="domain-email">hello@yourdomain.com</h1>
+
+        <div class="social-wrapper ">
+            <a href="#" class="btn-ghost">GitHub</a>
+            <a href="#" class="btn-ghost">LinkedIn</a>
+            <a href="#" class="btn-ghost">Twitter</a>
+        </div>
+    </div>
 </footer>
+
 </body>
-</html> 
+</html>
